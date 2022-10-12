@@ -1,0 +1,62 @@
+body{
+	background: 
+	url("../images/") center
+	no-repeat; 
+
+}
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 1600px;
+	height: 4500px;
+	background: 
+	url("../images/фон.png") center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.cont_1{
+	margin-bottom: 3150px;
+	margin-left: 30px;
+	position: absolute;
+}
+
+.cont_2{
+	margin-top: 2500px;
+	margin-bottom: 600px;
+	color: #367f84;
+	font-size: 175px;
+	position: absolute;
+
+}
+
+.t_1{
+	color: #367f84;
+	text-decoration: none;
+	transition: color 0.2s linear;
+}
+
+
+
+.t_1:hover{
+	color: #fff;
+}
+
+.audio{
+	margin-top: 500px;
+	margin-left: 900px;
+	width: 600px;
+}
+
+.s{
+	color: #ff6c00;
+	transition: color 0.2s linear;
+	text-decoration: none;
+	font-size: 100px;
+}
+
+.s:hover{
+	color: #fff;
+}
